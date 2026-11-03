@@ -147,5 +147,20 @@
         <a href="https://github.com/larprad" target="blank">Larprad</a>
       </p>
     </footer>
+    <script>
+      document.addEventListener('keydown', fucntion(event){
+                                const gameKeys = [
+                                  'ArrowUp',
+                                  'ArrowDown',
+                                  'ArrowLeft',
+                                  'ArrowRight',
+                                  ' '
+                                ];
+        if (gameKeys.includes(event.key) &&
+            !['INPUT', 'TEXTAREA'].includes(event.taarget.tagNAme)) {
+          event.preventDefault();
+        }
+      }, {passive:false});
+    </script>
   </body>
 </html>
