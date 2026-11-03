@@ -8,7 +8,15 @@
 html {
   --columns: 10;
   --rows: 20;
-  --block-width: clamp(10px, min(2.2vw, 3.2vh), 30px);
+  --block-width: clamp(
+    10px, 
+    min(
+      30px,
+      calc((100vw - 180px)/ 18),
+      calc((100vh - 180px) / 22)
+    ),
+    30px
+  );
   --border-width: 1px;
   height: 100%;
   overflow: hidden;
