@@ -8,7 +8,7 @@
 html {
   --columns: 10;
   --rows: 20;
-  --block-width: clamp(10px, min(2.5vw, 2.5vh), 30px);
+  --block-width: clamp(10px, min(2.2vw, 3.2vh), 30px);
   --border-width: 1px;
   height: 100%;
   overflow: hidden;
