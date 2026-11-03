@@ -202,3 +202,14 @@ footer a {
     display: none;
   }
 }
+@media screen and (max-width:700px) {
+  html {
+    block-width: clamp(12px, 1.5vw, 20px);
+  }
+  .mainContainer {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}
