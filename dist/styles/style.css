@@ -193,7 +193,7 @@ footer a {
   color: antiquewhite;
 }
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-width: 640px) {
   body {
     font-size: 12px;
   }
